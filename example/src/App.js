@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import { ExampleComponent } from 'tunsay-test-package'
+import { DateLayoutPicker } from 'tunsay-test-package'
 import 'tunsay-test-package/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const [startDate, setDateData] = useState(new Date())
+  return (
+    <DateLayoutPicker
+      name='startDate'
+      selected={startDate}
+      onChange={setDateData}
+    />
+  )
 }
 
 export default App

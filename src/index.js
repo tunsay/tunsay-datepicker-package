@@ -1,6 +1,14 @@
 import React from 'react'
-import styles from './styles.module.css'
+import DatePicker from 'react-datepicker'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const DateLayoutPicker = ({ name, selected, onChange }) => {
+  return (
+    <DatePicker
+      id={name}
+      name={name}
+      selected={selected}
+      onChange={onChange}
+      required
+    />
+  )
 }
