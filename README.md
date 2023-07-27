@@ -1,4 +1,4 @@
-# tunsay-test-package
+# tunsay-datepicker-package
 
 > Made with create-react-library
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save tunsay-test-package
+npm install --save tunsay-datepicker-package --legacy-peer-deps
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save tunsay-test-package
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'tunsay-test-package'
-import 'tunsay-test-package/dist/index.css'
+import MyComponent from 'tunsay-datepicker-package'
+import 'tunsay-datepicker-package/dist/index.css'
 
 class Example extends Component {
   render() {
