@@ -1,10 +1,10 @@
 {
   "name": "tunsay-datepicker-package",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Made with create-react-library",
   "author": "tunsay",
   "license": "MIT",
-  "repository": "tunsay/test_package",
+  "repository": "tunsay/tunsay-datepicker-package",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
-    "react-datepicker": "^4.16.0"
+    "react-datepicker": "^4.16.0",
+    "tunsay-datepicker-package": "^1.0.5"
   }
 }
